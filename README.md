@@ -1,7 +1,7 @@
 Laravel Comandos Random
 ============
 
-1. *Eliminar una table*
+1. *Eliminar un table*
 
 ```php
 Schema::drop('posts')
@@ -36,14 +36,3 @@ DB::select('select * from sqlite_master where type="table"')
 ```php
 composer dump-autoload
 ```
-
-
-
-
-
-
-
-
-
-$columns = \Schema::getColumnListing('posts');
-[]
